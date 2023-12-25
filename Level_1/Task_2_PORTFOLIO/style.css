@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gold;
+    /* position: fixed; */
+}
+.logo>img{
+    height: 60px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: purple;
+    color: white;
+}
+.resume-button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+}
+.resume-button:hover{
+    background-color: teal;
+    cursor: pointer;
+    zoom: 110%;
+}
+/* Wrapper Class */
+.wrapper{
+    width: 80%;
+    padding: 0% 10% 0% 10%;
+}
+
+/* Hero Section */
+.heroSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.greetings{
+    font-size: 60px;
+}
+.hero-about{
+    padding: 20px 0px 20px 0px ;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.socialMedia-Buttons>a{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    margin: 30px 20px 50px 0px;
+    border-radius: 40%;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+  }
+  .hero-buttons{
+    display: flex;
+    gap: 30px;
+  }
+  .contact-button , .resume2-button {
+    padding: 10px 20px 10px 20px;
+    background-color: teal;
+    border-color: white;
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  .resume2-button {
+    background-color: green;
+  }
+
+  /* About Section */
+  .aboutSection{
+    width: 100%;
+    min-height:100vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+  }
+  .aboutHeading{
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .aboutContent{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .aboutImg{
+    width: 40%;
+  } 
+  .aboutme{
+    width: 60%;
+    font-size: 20px;
+    line-height: 1.5;
+
+  }
+   .aboutImg>img{
+    width: 100%;
+  }
+  /* Skills Section */
+  .skillsSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 80px;
+    gap: 40px;
+    min-height:100vh ;
+  }
+  .skillsIcons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    gap: 60px;
+
+  }
+  .skillsCard{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+  }
+  .skillsCard > img {
+    width: 100%;
+  }
+  /* Project Section */
+  .projectSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 80px;
+    gap: 40px;
+    min-height:100vh ;
+  }
+  .project-parent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 1px solid; */
+    font-size: 20px;
+    padding-bottom: 40px;
+    gap: 40px;
+   }
+  .project-child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    
+  }
+  .project-img>img{
+    width: 100%;
+  }
+  .project-img{
+    width: 100%;
+  }
+/* Contact Section */
+  .contactSection{
+    width: 100%;
+    min-height:90vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+  }
+  .contactHeading{
+    font-size: 80px;
+    font-weight: bolder;
+  }
+  .common{
+    font-size: 40px;
+  }
+  .contactSection-btn{
+    font-size: 30px;
+    background-color: royalblue;
+    color: white;
+    padding: 20px;
+    border-color: white;
+    border-radius: 40px;
+  }
+  /* Footer Section */
+  footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
