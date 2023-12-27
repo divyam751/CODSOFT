@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calulator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c80990064.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="parent">
+            <div class="screen">
+                <span id="output">0</span>
+            </div>
+            <div class="buttonsSection">
+                <button onclick="handleButton(7)" >7</button>
+                <button onclick="handleButton(8)" >8</button>
+                <button onclick="handleButton(9)" >9</button>
+                <button onclick="handleButton(value)" value="/"><i class='fas fa-divide'></i></button>
+                <button onclick="handleButton(4)" >4</button>
+                <button onclick="handleButton(5)" >5</button>
+                <button onclick="handleButton(6)" >6</button>
+                <button onclick="handleButton(value)" value="*"><i class='fas fa-times'></i></button>
+                <button onclick="handleButton(1)" >1</button>
+                <button onclick="handleButton(2)" >2</button>
+                <button onclick="handleButton(3)" >3</button>
+                <button onclick="handleButton(value)" value="-"><i class='fas fa-minus'></i></button>
+                <button onclick="handleButton(0)" >0</button>
+                <button onclick="handleButton(value)" value=".">.</button>
+                <button onclick="handleButton(value)" value="="><i class='fas fa-equals'></i></button>
+                <button onclick="handleButton(value)" value="+"><i class='fas fa-plus'></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
