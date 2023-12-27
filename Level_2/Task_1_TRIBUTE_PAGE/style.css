@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    min-height:200vh ;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 40px;
+    gap: 30px;
+}
+.contentArea{
+    width: 90%;
+    /* height: 400vh; */
+    background-color:#002233;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+   padding-bottom: 200px;
+}
+#mainImg{
+    width: 600px;
+    margin-top: 40px;
+}
+.Heading{
+    font-size:100px;
+}
+.tagline{
+    font-size: 30px;
+}
+#king{
+    width: 400px;
+    z-index: 1;
+    margin-left: -200px;
+    
+}
+.introCard{
+    margin-top: 100px;
+    width: 80%;
+    /* height: 300px; */
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+.introCard-text{
+    height: 150px;
+    background-color: pink;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    /* border: 2px dashed pink; */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+   
+}
+
+.earlyYears{
+    margin-top: 100px;
+    width: 80%;
+    /* height: 300px; */
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 100px;
+    
+}
+.earlyYearsCard-text{
+    height: 150px;
+    background-color: lightblue;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    /* border: 2px dashed pink; */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+   
+}
+#kid{
+    width: 400px;
+    z-index: 1;
+    /* margin-right: -100px; */
+    
+}
+
+/* Achievements Section */
+.achievements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+}
+
+#achievement-heading{
+    font-size: 30px;
+    font-weight: bolder;
+    color: orange;
+}
+#achievement-text{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+
+/* Quote Section */
+
+.quote{
+    margin-top: 100px;
+    padding: 40px;
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 30px;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px  10px  40px  40px;
+    gap: 20px;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/011/350/136/original/yellow-color-triangulated-background-texture-for-business-card-template-free-vector.jpg") ;
+    background-position: center;
+    box-shadow: rgba(221, 219, 219, 0.562) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* font-family: 'Mochiy Pop One', sans-serif; */
+}
+#ribbon{
+    margin-top: 20px;
+    width: 300px;
+}
+
+footer{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
