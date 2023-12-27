@@ -14,23 +14,27 @@
             <div class="screen">
                 <span id="output">0</span>
             </div>
+
+            <div class="ResetButtonsSection">
+                <button onclick="reset(true)" style="background-color: black"  >CC</button>
+            </div>
             <div class="buttonsSection">
                 <button onclick="handleButton(7)" >7</button>
                 <button onclick="handleButton(8)" >8</button>
                 <button onclick="handleButton(9)" >9</button>
-                <button onclick="handleButton(value)" value="/"><i class='fas fa-divide'></i></button>
+                <button onclick="handleButton('/')"><i class='fas fa-divide'></i></button>
                 <button onclick="handleButton(4)" >4</button>
                 <button onclick="handleButton(5)" >5</button>
                 <button onclick="handleButton(6)" >6</button>
-                <button onclick="handleButton(value)" value="*"><i class='fas fa-times'></i></button>
+                <button onclick="handleButton('*')"><i class='fas fa-times'></i></button>
                 <button onclick="handleButton(1)" >1</button>
                 <button onclick="handleButton(2)" >2</button>
                 <button onclick="handleButton(3)" >3</button>
-                <button onclick="handleButton(value)" value="-"><i class='fas fa-minus'></i></button>
+                <button onclick="handleButton('-')" ><i class='fas fa-minus'></i></button>
                 <button onclick="handleButton(0)" >0</button>
-                <button onclick="handleButton(value)" value=".">.</button>
-                <button onclick="handleButton(value)" value="="><i class='fas fa-equals'></i></button>
-                <button onclick="handleButton(value)" value="+"><i class='fas fa-plus'></i></button>
+                <button onclick="handleButton('.')" >.</button>
+                <button onclick="handleButton('=')" ><i class='fas fa-equals'></i></button>
+                <button onclick="handleButton('+')" ><i class='fas fa-plus'></i></button>
             </div>
         </div>
     </div>

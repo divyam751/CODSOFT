@@ -5,21 +5,23 @@ let output = document.getElementById("output");
 let str="0";
 let operation = "";
 let res = 0;
-let a=0;
 let b=0;
 let finalOutput=0;
-const handleButton=(e)=>{
-    const reset=()=>{
-        str=parseInt(finalOutput);
-        operation="";
-        res=0;
-        a=0;
-        b=0;
-        console.log("cleared")
+const reset=( display=false)=>{
+    str=finalOutput;
+    operation="";
+    res=0;
+    b=0;
+    console.log("cleared")
+    if(display){
+      output.innerText=0;
+      str=""
     }
+} 
+const handleButton=(e)=>{
   const calculate=()=>{
     console.log(res);
-    b=parseInt(str);
+    b=parseFloat(str);
    finalOutput= handleOperation(res,b,operation);
    reset();
     output.innerText=finalOutput;
@@ -27,12 +29,12 @@ const handleButton=(e)=>{
     if(e=="="){
        calculate();
     }
-  else if(isNaN(e)){
+  else if((e!==".") && isNaN(e)){
     console.log("not a number");
     console.log(operation);
     // for float value
     if(e=="."){
-
+      console.log("here we are")
     }
 
 
@@ -45,22 +47,21 @@ const handleButton=(e)=>{
     }
     console.log("operation:" + operation)
     if(res==0){
-        res = parseInt(str);
+        // res = parseInt(str);
+        res = parseFloat(str);
         console.log("res:"+ res);
         str="0";
     }
-   
-    
 
   }
   else{
     if(str=="0"){
-        str=JSON.stringify(e);
+        str=e.toString();
     }else{
-        str+=e;
+        str+=e.toString();
     }
     
-    output.innerText=str;   
+    output.innerText=(str);   
   }
 
 
@@ -71,7 +72,7 @@ const handleOperation=(res,b,operation)=>{
         case "/" : return (res/b);
         case "*" : return(res*b);
         case "-" : return(res-b);
-        case "+" : return(res+b);
+        case "+" : return (res+b);
         default :return ("error");
     }
 }
